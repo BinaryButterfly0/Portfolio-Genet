@@ -202,21 +202,13 @@ section{
     20%{
         content:"Project Lead";
     }
-    21%,
-    40%{
-        content:"Software Tester";
-    }
-    41%,
-    60%{
-        content: "Project Lead";
-    }
-    61%, 
+    40%,
     80%{
         content:"Cybersecurity Professional ";
     }
     81%,
     100%{
-        content:"Software Tester";
+        content:"SOC Analyst ";
     }
 }
 @keyframes typing{
@@ -366,7 +358,7 @@ section{
     width: 100%;
 }
 .services .box-container .box{
-    background-color: var(--main-color);
+    /* background-color:#485563; */
     width: 40rem;
     padding: 2rem;
     border-radius: 3rem;
@@ -374,8 +366,8 @@ section{
     transition: .5s ease-in-out;
 }
 .services .box-container .box:hover{
-    background-color: #0C5478;
-    box-shadow: #0C5478;
+    background-color:antiquewhite;
+    box-shadow:#ff7678;
     scale: 1.1;
 }
 .services .box-container .box h3{
